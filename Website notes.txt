@@ -1,0 +1,222 @@
+Ended at 2:02:31
+Attibutes add on to the tag
+<h1>
+<em> Italic
+<p>
+<hr />
+<br />
+<strong>
+<body>
+<html>
+<title>
+<!-- This is text -->
+<a> (anchor)
+<a href>
+<a href="">
+<a href="#farm">Farming Section</a>
+<a name="farm"> link on same page
+<a href="mailto:alexhparsons@gmail.com"> Email Alex </a>
+<a href="http://google.com" title="awesome search engine">Google</a> (How you can make the title tool when hovering over a link)
+<img>
+<img src="Website pic.png"/>
+<img src="website pic.png" height="150/">
+<tr> is table row <table> is table 
+<td> is table data
+<th> table header 
+
+This is also another table:
+
+<table>
+	<tr>
+		<td>FISH</td>
+		<td>apples</td>
+		<td>tuna</td>
+	</tr>
+	<tr>
+		<td>tuba</td>
+		<td>ham chops</td>
+		<td>corn?</td>
+	</tr>
+<table border="1"> Border is an attribute
+<th></th> This is unlike <td> because it is bold and centered
+
+<table border="1">
+
+<tr>
+	<th>Name</th>
+	<th>Movie</th>
+	<th>Who they love</th>
+</tr>
+<tr>
+	<td>Natalie Portman</td>
+	<td>Garden State</td>
+	<td>Bucky</td>
+</tr>
+<tr>
+	<td>Rachael McAdams</td>
+
+<th colspan="2">Odd People</th> Attibute colspan (how many coloumns would you like to span this data accross?)
+
+Another Table
+
+<table border="1">
+	<tr>
+		<th colspan="2"><h3>Odd People</hr></th>
+	</tr>
+	<tr>
+		<th>Type</th>
+		<th>Reason</th>
+	</tr>
+	<tr>
+		<td>Cat People</td>
+		<td>17 cats is just too many</td>
+	</tr>
+	<tr>
+		<td>Loud People</td>
+		<td>Sure turn that music up, its only 3 am</td>
+	</tr>
+</table>
+	<td>Mean Girls</td>
+	<td>Bucky</td>
+</tr>
+
+</table>
+</table>
+
+<table border="1" width="500"> Width another attibute ajust that many pixels
+<table border="1" width="100%"> Takes up that much percent of your website
+<table border="1" cellpadding=""> Gives you space in your border or "padding"
+<table border="1" cellspacing="10"> The idea that you have space between your cells themself
+<ul> unordered list take items and make them bullet points
+<li> List like <td>
+<ol> ordered list
+
+
+
+
+
+<!doctype html>
+
+<html>
+<head>
+
+</head> 
+<body>
+
+<ol>
+	<li>Go to youtube</li>
+	<li>type in "thenewboston"</li>
+	<li>Watch all the videos</li>
+	<li>eat a hot pocket</li>
+</ol>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+Adding css
+
+<head>
+	<style type="text/css">
+	</style>
+</head> 
+
+
+p  {text-indent:25px;}  This will indent the text at the beggining of a sentence
+body {background-color:blue;color:white;} This will change the background color of your website and will also change the text to white
+body{background-image:url(website pic.png);} This changes the background to an image
+
+
+
+<!doctype html>
+
+<html>
+<head>
+	<style type="text/css">
+		p {color:blue;}
+	</style>
+</head> 
+<body>
+
+this is normal text
+<p> this is paragraph text </p>
+
+</body>
+
+</html>
+
+
+
+
+style type="text/css">
+	p {color:blue;}			p is the selector what element i want to change, color is called the property what you want to change about it, blue is the value what you want to change it to
+
+This goes more in depth of the font you can add as a value
+
+<head>
+	<style type="text/css">
+		p {color:blue;font-family:arial;}
+	</style>
+</head> 
+
+
+Line height gives you more space between your lines
+
+RGB values or photoshop color picker
+
+
+<head>
+	<style type="text/css">
+		h1 {color:red;}
+		p {line-height:150%;}
+	</style>
+
+ul {font-weight:} (the size of the font or boldness)
+	
+</head> 
+
+
+h3 {text-align:center;} there is right center and justified this aligns the text on the page
+
+
+
+This will allow you to have one image for your page instead of repeating
+
+background-image:url(Day1.png);
+background-repeat:no-repeat;
+body{background-image:url(Day1.png);background-repeat:no-repeat-x;}	Repeats right
+body{background-image:url(Day1.png);background-repeat:no-repeat-y;}	Repeats down 
+
+
+background-position: 10px 60px;	The first is how far from the left hand side do you want to move it, next number is how far from the top you want to move it
+background-position: 50% 60px;} 50 percent to the left
+padding:20px;} The amount of space between the border is the border
+padding top, left,right, bottom
+
+padding-top:30px;
+padding-bottom:20;
+Borders outline the padding
+
+All of the customizations for a border. Look up border style types
+
+h2 {background-color:yellow;
+padding:15px;
+border-color:red;
+border-width:3px;
+border-stlye:dashed;
+
+border-top-color:green;
+border-top-style:dotted;
+border-top-width:4px
+
+
+p{background-color:orange;	this changes the space between the paragraphs
+margin:1px;}
+
+margin-top:1px;} there are multiple different ones like top,bottom
