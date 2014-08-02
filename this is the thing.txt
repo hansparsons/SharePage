@@ -1,1 +1,5 @@
 if this works i will be so awesomely happy
+
+git push --help
+
+notepad "this is the thing.txt"
