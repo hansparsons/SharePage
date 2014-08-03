@@ -16,7 +16,7 @@
             &nbsp;</p>
         <p>
             &nbsp;</p>
-        <asp:Panel ID="Panel1" runat="server" BorderStyle="Dashed" Height="209px" Width="382px">
+        <asp:Panel ID="Panel1" runat="server" BackColor="#D93E3B" BorderStyle="None" Height="209px" Width="382px">
         </asp:Panel>
         <p>
         <asp:Button class="myBtn" ID="Button1"  runat="server" Text="Post" BackColor="#d93e3b" Height="22px" Width="70px" CssClass="myBtn" />
