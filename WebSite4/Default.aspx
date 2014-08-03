@@ -15,8 +15,13 @@
         <p>
             &nbsp;</p>
         <p>
-        <asp:Button class="myBtn" ID="Button1"  runat="server" Text="Button" BackColor="#d93e3b" Height="31px" Width="72px" />
+            &nbsp;</p>
+        <asp:Panel ID="Panel1" runat="server" BorderStyle="Dashed" Height="209px" Width="382px">
+        </asp:Panel>
+        <p>
+        <asp:Button class="myBtn" ID="Button1"  runat="server" Text="Post" BackColor="#d93e3b" Height="22px" Width="70px" CssClass="myBtn" />
         </p>
+        <asp:ImageButton ID="ImageButton1" runat="server" Height="22px" ImageUrl="~/Images/Layer2.png" Width="70px" />
     </form>
 </body>
 </html>
