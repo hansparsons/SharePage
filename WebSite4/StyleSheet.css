@@ -1,13 +1,21 @@
 ﻿body {
 }
 
-.myBtn {
-
-            font-size: 11px;
-            font-weight: bold;
-            font-family:  Arial;
-            color: #ffffff;
-            border-radius: 2px 2px 2px 2px;
-            border: 1px solid #d93e3b;  
+a.dark-button { 
+    font: 11pt/11pt "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    font-weight: 100; 
+    color: white; 
+    text-decoration: none; 
+    background-color: #555; 
+    border: 3px solid white; 
+    -moz-border-radius: 15px; padding: 5px 3px; 
+    text-shadow: 1px 1px 2px #111;
+}
+    a.dark-button span { 
+        background-color: #666; 
+        padding: 2px 12px; 
+        -moz-border-radius: 15px;
+        -moz-box-shadow: 0 0 1px #666, 0 0 2px #666, 0 0 3px #666, 0 0 4px #666, 0 0 5px #666, 0 0 7px #666; 
+    }
 
 }

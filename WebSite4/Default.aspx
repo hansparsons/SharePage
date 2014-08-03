@@ -17,6 +17,9 @@
         <p>
         <asp:Button class="myBtn" ID="Button1"  runat="server" Text="Button" BackColor="#d93e3b" Height="31px" Width="72px" />
         </p>
+        <asp:Panel ID="Panel1" runat="server" Height="239px" style="margin-right: 584px">
+        </asp:Panel>
+        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
     </form>
 </body>
 </html>
