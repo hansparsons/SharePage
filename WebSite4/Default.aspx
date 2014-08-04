@@ -22,7 +22,7 @@
         <asp:Button class="myBtn" ID="Button1"  runat="server" Text="Post" BackColor="#d93e3b" Height="22px" Width="70px" CssClass="myBtn" />
         </p>
 <<<<<<< HEAD
-        <asp:Panel ID="Panel1" runat="server" Height="239px" style="margin-right: 584px">
+        <asp:Panel ID="Panel2" runat="server" Height="239px" style="margin-right: 584px">
         </asp:Panel>
         <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
 =======
