@@ -13,3 +13,25 @@
 </label>
 </body>
 </html>
+
+
+
+
+
+
+---------------------------------------------------------------------------------
+Change the user to hans or whatever it is called
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+<img src="file:///C|/Users/alex/Documents/SharePage/Test1jpeg.jpg" width="1920" height="1080" alt=""/>
+<input type="image" name="imageField" id="imageField" src="file:///C|/Users/alex/Documents/SharePage/thelogofornow.png">
+</body>
+</html>
+
