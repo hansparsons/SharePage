@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+<label for="textfield">Text Field:</label>
+<label>
+<input type="text" name="textfield" id="textfield">
+<input type="button" name="button" id="button" value="Button">
+</label>
+</body>
+</html>
