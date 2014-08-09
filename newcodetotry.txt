@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<style type="text/css">
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: #eeeeee;
+}
+</style>
+</head>
+<body>
+  <img src="banner.png" alt="starting" style="width: 100%;" />  
+</body>
+</html>
