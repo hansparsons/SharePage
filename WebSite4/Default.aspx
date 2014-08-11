@@ -36,6 +36,7 @@
         <table style="width: 100%; height: 28px; margin-top: 59px;">
             <tr>
                 <td class="auto-style2">
+
             <asp:ImageButton ID="ImageButton1" runat="server" Height="22px" ImageUrl="~/Images/Layer2.png" style="margin-top: 0px; margin-left: 188px; margin-right: 4px; margin-bottom: 0px;" Width="70px" OnClick="ImageButton1_Click"/>
                 </td>
                 <td class="auto-style3">

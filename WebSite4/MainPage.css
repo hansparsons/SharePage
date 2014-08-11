@@ -1,0 +1,89 @@
+﻿body {
+    margin:0 
+
+}
+
+.titleBanner{
+   background-color: #A10000;
+    height: 65px;
+}
+.whiteSpace{
+   background-color: #ffffff;
+    height: 23px;
+    margin-bottom: 5px;
+}
+.menuBanner{
+   background-color: #CA3838;
+    height: 33px;
+}
+nav{
+    background: #CA3838; 
+    width: 100%;
+	position: fixed;
+	display: inline-table;
+    height: 20px;
+    margin-top: -23px;
+}
+nav ul ul {
+	display: none;
+
+}
+
+	nav ul li:hover > ul {
+		display: block;
+	}
+nav ul {
+	background: #D93E3A; 
+	background: linear-gradient(top, #D93E3A 0%, #CA3838 100%);  
+	background: -moz-linear-gradient(top, #D93E3A 0%, #CA3838 100%); 
+	background: #CA3838; 
+	/*box-shadow: 0px 0px 9px rgba(0,0,0,0.15);*/
+	/*padding: 0 20px;*/
+	border-radius: 0px;  
+	list-style: none;
+	position: fixed;
+	display: inline-table;
+    margin-top: -.05px;
+
+}
+	nav ul:after {
+		content: ""; clear: both; display:block;
+	}
+    nav ul li {
+	float:left;
+
+}
+	nav ul li:hover {
+		background: #D93E3A;
+		background: linear-gradient(top, #D93E3A 0%, #D93E3A  40%);
+		background: -moz-linear-gradient(top, #D93E3A 0%, #D93E3A  40%);
+		background: -webkit-linear-gradient(top, #D93E3A 0%,#D93E3A  40%);
+	}
+		nav ul li:hover a {
+			color: #fff;
+		}
+	
+	nav ul li a {
+		display: compact;  padding: 10px 25px;
+		color: #fff; text-decoration: none;
+}
+    nav ul ul {
+	background: #CA3838; border-radius: 0px; padding: 0;
+	position: absolute; top: 100%;
+
+}
+	nav ul ul li {
+		float: none;
+        /*border-bottom: 1px solid #fff; */
+		position: relative;
+	}
+		nav ul ul li a {
+			padding: 0px 25px;
+			color: #fff;
+		}	
+			nav ul ul li a:hover {
+				background: #D93E3A;
+			}
+    nav ul ul ul {
+	position: absolute; left: 100%; top:0;
+}

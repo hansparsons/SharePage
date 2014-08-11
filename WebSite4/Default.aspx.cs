@@ -42,6 +42,7 @@ public partial class _Default : System.Web.UI.Page
         // this is the folder where the uploaded files are saved
         string DefaultFileName = "";
 
+
         if (FileUploader.HasFile)
             try
             {
@@ -65,7 +66,7 @@ public partial class _Default : System.Web.UI.Page
                     image.Style["left"] = punctX.ToString() + "px";
                     image.Style["top"] = punctY.ToString() + "px";
                     image.Width = 60;
-                    image.Height = 100;
+                    //image.Height = 100;
                     //image.ImageUrl = (Server.MapPath(DefaultFileName) + FileUploader.FileName);
                     //image.ImageUrl = "Images/" + image.ID.ToString() + ".jpg";
                     image.ImageUrl = "Images/" + FileUploader.FileName.ToString();
