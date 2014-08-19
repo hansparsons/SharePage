@@ -10,8 +10,6 @@
 <body>
     <form id="form1" runat="server">
     <div class="titleBanner" >
-        <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/newlogo22.jpg" style="margin-left: 24px; margin-top: 3px"  />
-        <asp:Label ID="Label1" runat="server" Text="Welcome: Alex Parsons</br>Account Info</br>Settings" BorderStyle="None" Position ="static" Height="61px" style="margin-left: 23px; margin-top: 0px; margin-bottom: 0px" ForeColor="White" Width="255px"></asp:Label>
     </div>
     <div class ="whiteSpace">
     </div>

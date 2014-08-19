@@ -5,24 +5,26 @@
 
 .titleBanner{
    background-color: #A10000;
-    height: 65px;
+    height: 40px;
 }
 .whiteSpace{
    background-color: #ffffff;
-    height: 23px;
+    height: 1000px;
     margin-bottom: 5px;
 }
 .menuBanner{
    background-color: #CA3838;
-    height: 33px;
+    height: 16px;
 }
 nav{
     background: #CA3838; 
     width: 100%;
 	position: fixed;
 	display: inline-table;
-    height: 20px;
+    height: 29px;
     margin-top: -23px;
+    top: 85px;
+    left: 0px;
 }
 nav ul ul {
 	display: none;
