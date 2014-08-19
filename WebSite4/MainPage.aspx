@@ -40,7 +40,15 @@
                 <li><a href="#">Search</a></li>
 	        </ul>
             </nav>
-
+                <div>
+    <asp:TextBox ID="txtUrl" runat="server" Text="" />
+    <asp:Button Text="Capture" runat="server" OnClick="Capture" />
+    <br />
+    <asp:Image ID="imgScreenShot" runat="server" Height="225" Width="300" Visible="true" />
+    </div>
     </form>
+
+    <iframe  src="http://cnn.com" height="375" width="500"  />
+
 </body>
 </html>
