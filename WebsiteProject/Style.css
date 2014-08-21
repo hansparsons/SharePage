@@ -77,3 +77,41 @@ body {
     margin-left: -.5em;
     margin-top: -.5em;
 }
+
+.center2 {
+    margin: 0;
+    position: absolute;
+    top: 87.7px;
+    left: 680px;
+    margin-left: -.5em;
+    margin-top: -.5em;
+}
+
+.center3 {
+    margin: 0;
+    position: absolute;
+    top: 87.7px;
+    left: 1050px;
+    margin-left: -.5em;
+    margin-top: -.5em;
+}
+
+.center4 {
+    margin: 0;
+    position: absolute;
+    top: 87.7px;
+    left: 1300px;
+    margin-left: -.5em;
+    margin-top: -.5em;
+}
+
+.center5 {
+    margin: 0;
+    position: absolute;
+    top: 87.7px;
+    left: 1600px;
+    margin-left: -.5em;
+    margin-top: -.5em;
+}
+
+
