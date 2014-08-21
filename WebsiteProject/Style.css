@@ -1,6 +1,7 @@
 body {
 	margin: 0
 }
+
 .header{
     margin: 0;
 	padding: 0;
@@ -20,4 +21,59 @@ body {
 	left: 0;
     right: 0;
     height: 1px;    
+}
+
+.secondheader{
+	margin: 0;
+	padding: 0;
+	background: #fcfcfc;
+    position:absolute;
+    top: 80px;
+	left: 0;
+    right: 0;
+    height: 35px
+}
+
+.secondunderline{
+
+	margin: 0;
+	padding: 0;
+	background: #d0d0d0;
+    position:absolute;
+    top: 80px;
+	left: 0;
+    right: 0;
+    height: 1px
+
+}
+
+.thirdunderline{
+
+	margin: 0;
+	padding: 0;
+	background: #d0d0d0;
+    position:absolute;
+    top: 115px;
+	left: 0;
+    right: 0;
+    height: 1px
+}
+
+/* div.vertical-line{
+  width: 1px;
+  background-color: black;
+  height: 35px;
+  position:absolute;
+  top: 80px;
+  left: 272px;
+  right: 0;
+} */
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 87.7px;
+    left: 180px;
+    margin-left: -.5em;
+    margin-top: -.5em;
 }
