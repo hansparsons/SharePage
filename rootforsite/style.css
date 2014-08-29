@@ -1,3 +1,21 @@
-.slider {
-	top: 50 px;
+
+
+#logo {
+     margin-top:-4px;
+}
+
+div.navBulletsWrapper { 
+	top: px; 
+	left:0px; 
+}
+
+#wrap { 
+	width: 900px; 
+	margin: 0 auto; 
+}
+
+#centering {
+
+	width: 900px; 
+	margin: 0 auto;
 }
