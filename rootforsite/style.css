@@ -1,6 +1,13 @@
 body {
 	padding-top:0px;
 }
+@media (min-width:991px) {
+  .navbar-right {
+    position: absolute;
+    right: 10px;
+  }
+}
+
 
 /**
  * BxSlider v4.1.2 - Fully loaded, responsive content slider
